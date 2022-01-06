@@ -1,0 +1,39 @@
+body{
+    background: rgb(226, 225, 219);
+}
+
+#link{
+    color: #fff;
+    padding-right: 40px;
+    text-shadow: 3px;
+}
+
+#link:hover{
+    color: chartreuse;
+    transition: 0.4s ease-in-out;
+}
+
+h1{
+    text-align: center;
+    font-weight: bold;
+    font-family: bold;
+    padding-top: 90px;
+    font-size: 75px;
+    color: black;
+}
+
+.produk{
+    background: #fff;
+    float: left;
+    width: 200px;
+    height: 250px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.produk-img{
+    width: 80%;
+    height: 200px;
+    padding-top: 30px;
+}

@@ -1,0 +1,83 @@
+body{
+    background-color: rgb(226, 225, 219);
+}
+
+#link{
+    color: #fff;
+    padding-right: 40px;
+    text-shadow: 3px;
+}
+
+#link:hover{
+    color: chartreuse;
+    transition: 0.4s ease-in-out;
+}
+.jumbotron{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.2)50%,rgba(0,0,0,0.2)50%), url("th\(14\).jpg");
+    background-position-y: bottom;
+    background-size: cover;
+    height: 100vh;
+}
+
+.jumbotron h1{
+    color: blue;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: bold;
+    padding-top: 80px;
+}
+
+.jumbotron h1 span{
+    color: crimson;
+}
+
+.row{
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+    border: 2px solid white;
+    border-radius: 20px;
+    background-color: aliceblue;
+}
+.row img{
+    height: 60px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.container .produk-judul{
+    width: 50%;
+    float: left;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.container .produk-more{
+    width: 50%;
+    height: 25px;
+    text-align: right;
+    float: right;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+#kolom{
+    width: 100%;
+}
+
+.produk{
+    background: #fff;
+    float: left;
+    width: 200px;
+    height: 250px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.produk-img{
+    width: 80%;
+    height: 200px;
+    padding-top: 30px;
+}

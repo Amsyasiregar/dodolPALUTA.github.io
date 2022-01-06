@@ -1,0 +1,162 @@
+#link{
+    color: #fff;
+    padding-right: 40px;
+    text-shadow: 3px;
+}
+
+#link:hover{
+    color: chartreuse;
+    transition: 0.4s ease-in-out;
+}
+
+.navbar-toggler{
+    margin-right: 30px;
+}
+
+.jumbotron{
+    width: 100%;
+    background-image: url("th\(14\).jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.jumbotron h1{
+    text-align: center;
+    font-family: bold;
+    font-weight: bold;
+    font-size: 70px;
+    color: blue;
+    padding-top: 40px;
+}
+
+.kontak{
+    width: 300px;
+    height: 250px;
+    margin-top: 70px;
+    margin-left: 20px;
+    background: linear-gradient(to top, rgba(0,0,0,0.9)50%,rgba(0,0,0,0.9)50%);
+    border-radius: 20px;
+}
+
+.kontak h2{
+    width: 200px;
+    color: rgb(255, 187, 0);
+    border-bottom: 10px;
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    height: 20px;
+    margin-left: 40px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.kontak input{
+    width: 250px;
+    height: 20px;
+    background: transparent;
+    color: #fff;
+    margin-left: 20px;
+    margin-top: 20px;
+    border: 1px solid rgb(255, 187, 0);
+    border-right: none;
+    border-right: none;
+    border-top: none;
+    border-left: none;
+}
+
+.kontak textarea{
+    width: 250px;
+    margin-left: 20px;
+    height: 70px;
+    margin-top: 10px;
+    background: transparent;
+    border: 1px solid rgb(255, 187, 0);
+    border-radius: 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: #fff;
+}
+
+.kontak a{
+    width: 70px;
+    height: 35px;
+    background: orange;
+    margin-left: 190px;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.kontak a:hover{
+    background: darkturquoise;
+    transition: 0.3s ease-in-out;
+}
+
+@media (min-width: 996px) {
+    .kontak{
+        width: 400px;
+        height: 400px;
+        margin-top: 50px;
+        margin-left: 350px;
+        background: linear-gradient(to top, rgba(0,0,0,0.9)50%,rgba(0,0,0,0.9)50%);
+        border-radius: 20px;
+    }
+
+    .kontak h2{
+        width: 200px;
+        color: rgb(255, 187, 0);
+        border-bottom: 20px;
+        padding-top: 20px;
+        font-weight: bold;
+        font-size: 20px;
+        height: 40px;
+        margin-left: 90px;
+        border-radius: 20px;
+        text-align: center;
+    }
+
+    .kontak input{
+        width: 350px;
+        height: 40px;
+        background: transparent;
+        color: #fff;
+        margin-left: 20px;
+        margin-top: 20px;
+        border: 1px solid rgb(255, 187, 0);
+        border-right: none;
+        border-right: none;
+        border-top: none;
+        border-left: none;
+    }
+    
+    .kontak textarea{
+        width: 350px;
+        margin-left: 20px;
+        height: 130px;
+        margin-top: 20px;
+        background: transparent;
+        border: 1px solid rgb(255, 187, 0);
+        border-radius: 10px;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        color: #fff;
+    }
+    
+    .kontak a{
+        width: 100px;
+        height: 45px;
+        background: orange;
+        margin-left: 250px;
+        color: #fff;
+        font-size: 20px;
+        border-radius: 10px;
+        text-align: center;
+        margin-top: 10px;
+    }
+}
